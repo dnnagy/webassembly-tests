@@ -4,6 +4,7 @@
     // See https://emscripten.org/docs/getting_started/FAQ.html#how-can-i-tell-when-the-page-is-fully-loaded-and-it-is-safe-to-call-compiled-functions
     var Module = {
         onRuntimeInitialized: function() {
+            Module._sayHello();
             console.log(
                 Module._add(41, 1)
             );
