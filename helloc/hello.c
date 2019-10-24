@@ -13,7 +13,7 @@ EMSCRIPTEN_KEEPALIVE double add(double a, double b){
 	return a+b;
 }
 
-EMSCRIPTEN_KEEPALIVE char * greet(char* _name){
+EMSCRIPTEN_KEEPALIVE char * greet(const char* _name){
 	printf("_name: %s\n", _name);
 	char* rv = (char *)malloc(256*sizeof(char));
 	strcpy(rv, "Hello, ");
