@@ -11,6 +11,13 @@
             console.log(
                 Module.ccall("greet", "string", ["string"], "Dani")
             );
+
+            // To read characters from heap:
+            // for (var k = 0;k<18;k++) {
+            //     console.log(
+            //         String.fromCharCode(Module.HEAPU8[5247192 + k])
+            //     );
+            // }
         }
     };
     </script>

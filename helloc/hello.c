@@ -3,17 +3,20 @@
 #include <stdlib.h>
 
 // Emscripten functionality
-#include <emscripten.h>
+//#include <emscripten.h>
 
-EMSCRIPTEN_KEEPALIVE void sayHello(){
+// EMSCRIPTEN_KEEPALIVE
+void sayHello(){
 	printf("Hello, World!\n"); // js console reads until newline !
 }
 
-EMSCRIPTEN_KEEPALIVE double add(double a, double b){
+// EMSCRIPTEN_KEEPALIVE
+double add(double a, double b){
 	return a+b;
 }
 
-EMSCRIPTEN_KEEPALIVE char * greet(const char* _name){
+// EMSCRIPTEN_KEEPALIVE
+char * greet(const char* _name){
 	printf("_name: %s\n", _name);
 	char* rv = (char *)malloc(256*sizeof(char));
 	strcpy(rv, "Hello, ");
