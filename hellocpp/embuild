@@ -1,0 +1,3 @@
+em++ --bind Vector2.cpp -o Vector2.js \
+-s MODULARIZE=1 -s 'EXPORT_NAME="MyModule"' \
+-s "EXTRA_EXPORTED_RUNTIME_METHODS=['ccall', 'cwrap']"
