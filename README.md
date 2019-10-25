@@ -7,10 +7,13 @@ Testing webassembly.
 
 - [C++ tutorial](https://medium.com/@tdeniffel/pragmatic-compiling-from-c-to-webassembly-a-guide-a496cc5954b8)
 - [minimal c++ github repo](https://github.com/tom-010/webassembly-example)
-# Demos 
 
+# Demos 
 ## WebGL demos:
 - [Cubes](http://kripken.github.io/ammo.js/examples/webgl_demo/ammo.wasm.html)
 - [Rope](http://kripken.github.io/ammo.js/examples/webgl_demo_softbody_rope/index.html)
 - [Cloth](http://kripken.github.io/ammo.js/examples/webgl_demo_softbody_cloth/index.html)
 - [Volume](http://kripken.github.io/ammo.js/examples/webgl_demo_softbody_volume/index.html)
+
+# Other
+[AssemblyScript](https://docs.assemblyscript.org)
